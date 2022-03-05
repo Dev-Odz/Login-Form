@@ -1,0 +1,36 @@
+:root {
+  /* CSS HEX */
+  --blue-jeans: #54b7f7ff;
+  --caput-mortuum: #662826ff;
+  --blue-sapphire: #285370ff;
+  --snow: #fbf9faff;
+  --black: #000000ff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+/* Button */
+.btn {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn--primary {
+  background: var(--blue-jeans);
+  color: var(--snow);
+}
+
+.btn--login:hover {
+  background: var(--blue-sapphire);
+  color: var(--snow);
+}
