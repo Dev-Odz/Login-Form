@@ -13,11 +13,12 @@ html {
 
 body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  padding: 5rem;
 }
 
 /* Button */
 .btn {
-  font-size: 2rem;
   padding: 1rem 2rem;
   border: 0;
   border-radius: 2rem;
@@ -33,4 +34,36 @@ body {
 .btn--login:hover {
   background: var(--blue-sapphire);
   color: var(--snow);
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-top: 2rem;
+}
+
+.lbl--secondary {
+  color: var(--blue-sapphire);
+}
+
+/* Input */
+input {
+  padding: 1rem 1rem 0;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.input--box {
+  border-bottom: 2px solid #9b9b9b;
+}
+
+.input--box:active {
+}
+
+.input--outline {
+  outline: 0;
+  border: 0;
+}
+
+.input--outline:active {
 }

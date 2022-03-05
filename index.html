@@ -14,6 +14,32 @@
     <title>Login Form</title>
   </head>
   <body>
-    <button class="btn btn--primary btn--login" type="submit">Login</button>
+    <div class="block">
+      <label class="lbl--secondary" for="username">Username</label>
+      <div class="input--box">
+        <input
+          class="input--outline"
+          type="text"
+          name="username"
+          minlength="5"
+          maxlength="10"
+          placeholder="Username"
+          required
+        />
+      </div>
+      <label class="lbl--secondary" for="password">Password</label>
+      <div class="input--box">
+        <input
+          class="input--outline"
+          type="password"
+          name="password"
+          id=""
+          minlength="5"
+          maxlength="10"
+          placeholder="Password"
+          required
+        />
+      </div>
+    </div>
   </body>
 </html>
