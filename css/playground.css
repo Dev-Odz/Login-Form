@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  border: 1px solid red;
+  background-color: dodgerblue;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  margin: auto auto;
+  width: 500px;
+  height: 500px;
+  background-color: gold;
+  border: 1px solid red;
+}

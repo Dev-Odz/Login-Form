@@ -14,31 +14,47 @@
     <title>Login Form</title>
   </head>
   <body>
-    <div class="block">
-      <label class="lbl--secondary" for="username">Username</label>
-      <div class="input--box">
-        <input
-          class="input--outline"
-          type="text"
-          name="username"
-          minlength="5"
-          maxlength="10"
-          placeholder="Username"
-          required
-        />
-      </div>
-      <label class="lbl--secondary" for="password">Password</label>
-      <div class="input--box">
-        <input
-          class="input--outline"
-          type="password"
-          name="password"
-          id=""
-          minlength="5"
-          maxlength="10"
-          placeholder="Password"
-          required
-        />
+    <div class="background">
+      <div class="container block--accent grid grid--1x2 grid--2x1">
+        <div class="block block__header">
+          <h2 class="heading">Alumni Login Form</h2>
+          <p class="header__text">All rights reserved</p>
+          <img src="/images/virtual-g02786cf59_1280.png" alt="" />
+        </div>
+        <form action="">
+          <div class="block block--input">
+            <label class="lbl--secondary" for="username">Username</label>
+            <div class="input--box">
+              <input
+                class="input--outline"
+                type="text"
+                name="username"
+                minlength="5"
+                maxlength="10"
+                placeholder="Username"
+                required
+              />
+            </div>
+            <label class="lbl--secondary" for="password">Password</label>
+            <div class="input--box">
+              <input
+                class="input--outline"
+                type="password"
+                name="password"
+                id=""
+                minlength="5"
+                maxlength="10"
+                placeholder="Password"
+                required
+              />
+            </div>
+          </div>
+          <div class="btn__center">
+            <button class="btn btn--primary btn--login" type="submit">
+              Login
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   </body>
